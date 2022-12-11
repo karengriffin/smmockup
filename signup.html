@@ -12,54 +12,98 @@
     <link rel="styles" href="styles.css" />
     <title>Social Media Clone (change later)***</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       body {
         background-image: url('images/bgimg.png');
+      }
+      .bgimg {
+        width: 100%;
+        height: 1117px;
+        position: absolute;
+      }
+      h1 {
+        height: 61px;
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 125;
+        font-size: 67px;
+        line-height: 116%;
+        letter-spacing: 0.01em;
+        padding-left: 20%;
+      }
+      form {
+        display: flex;
+        justify-items: center;
       }
     </style>
   </head>
   <!-- Body Section-->
   <body>
-    <h1>Get Growling with Friends!</h1>
-    <div class="signup">
+    <div class="bgimg"></div>
+    <h1>GET GROWLING WITH FRIENDS!</h1>
+    <div class="flex-container">
       <form>
-        <label for="fname">NAME</label>
-        <input type="text" id="fname" name="fname" value="Name" required />
-        <label for="lname">[OWNER'S] LAST NAME</label>
-        <input
-          type="text"
-          id="lname"
-          name="lname"
-          value="[Owner's] last name"
-        />
-        <label for="age">AGE</label>
-        <input type="number" id="age" name="age" value="age" required />
-        <label for="species">SPECIES</label>
-        <input
-          type="text"
-          id="species"
-          name="species"
-          value="Species"
-          required
-        />
-        <label for="email">GMAIL ADDRESS</label>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          value="Email Address"
-          required
-        />
-        <label for="pswd">PASSWORD</label>
-        <input type="text" id="pswd" name="pswd" value="Password" required />
-        <label for="conpswd">CONFIRM PASSWORD</label>
-        <input
-          type="text"
-          id="conpswd"
-          name="conpswd"
-          value="Confirm password"
-          required
-        />
-        <input type="submit" value="Submit" />
+          <div>
+            <label for="fname">NAME</label>
+            <input type="text" id="fname" name="fname" value="Name" required />
+          </div>
+          <div>
+            <label for="lname">[OWNER'S] LAST NAME</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="[Owner's] last name"
+            />
+          </div>
+          <div>
+            <label for="age">AGE</label>
+            <input type="number" id="age" name="age" value="age" required />
+          </div>
+          <div>
+            <label for="species">SPECIES</label>
+            <input
+              type="text"
+              id="species"
+              name="species"
+              value="Species"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">GMAIL ADDRESS</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              value="Email Address"
+              required
+            />
+          </div>
+          <div>
+            <label for="pswd">PASSWORD</label>
+            <input
+              type="text"
+              id="pswd"
+              name="pswd"
+              value="Password"
+              required
+            />
+          </div>
+          <div>
+            <label for="conpswd">CONFIRM PASSWORD</label>
+            <input
+              type="text"
+              id="conpswd"
+              name="conpswd"
+              value="Confirm password"
+              required
+            />
+          </div>
+          <div><input type="submit" value="Submit" /></div>
+        </ul>
       </form>
     </div>
   </body>
