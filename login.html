@@ -13,12 +13,41 @@
   </head>
   <!-- Body Section-->
   <body>
-    <div class="header">
-      <h1>Welcome back!</h1>
+    <header>
+        <h1>Welcome back!</h1>
+    </header>
+      <main>
+        <form>
+       <!-- email div -->
+          <div>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              value=""
+              required
+            />
+             <div> <label for="email">GMAIL ADDRESS</label></div>
+          </div>
+        <!-- password div -->
+          <div>
+            <input
+              type="password"
+              id="pswd"
+              name="pswd"
+              value=""
+              required
+            />
+            <div><label for="pswd">PASSWORD</label></div>
+          </div>
+
+      </form>
+      </main>
     </div>
-    <div class="signup">
-      <form>
-        <label for="email">Email:</label>
+  </body>
+</html>
+
+  <!-- <label for="email">Email:</label>
         <input
           type="text"
           id="email"
@@ -28,8 +57,4 @@
         />
         <label for="pswd">Password:</label>
         <input type="text" id="pswd" name="pswd" value="Password" required />
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
-  </body>
-</html>
+        <input type="submit" value="Submit" /> -->

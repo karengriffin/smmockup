@@ -11,35 +11,6 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Social Media Clone (change later)***</title>
-    <!-- <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        background-image: url('images/bgimg.png');
-      }
-      .bgimg {
-        width: 100%;
-        height: 1117px;
-        position: absolute;
-      }
-      h1 {
-        height: 61px;
-        font-family: 'Cinzel';
-        font-style: normal;
-        font-weight: 125;
-        font-size: 67px;
-        line-height: 116%;
-        letter-spacing: 0.01em;
-        padding-left: 20%;
-      }
-      .flex-container {
-        display: flex;
-        flex-direction: column;
-    align-items: center;
-      }
-      
-    </style> -->
   </head>
   <!-- Body Section-->
   <body>
@@ -50,24 +21,28 @@
     <main>
     <div class="flex-container">
       <form>
+        <!-- first name div -->
           <div>
             <input type="text" id="fname" name="fname" value="" required />
+            <div><label for="fname">NAME</label></div>
           </div>
-          <div><label for="fname">NAME</label></div>
+        <!-- last name div -->
           <div><input
               type="text"
               id="lname"
               name="lname"
               value=""
             />
-          </div>
-          <div>
+            <div>
             <label for="lname">[OWNER'S] LAST NAME</label>
           </div>
+          </div>
+        <!-- age div -->
           <div>
             <input type="number" id="age" name="age" value=" " required />
+            <div>  <label for="age">AGE</label></div>
           </div>
-          <label for="age">AGE</label>
+        <!-- species div -->
           <div>
             <!-- <input
               type="text"
@@ -87,6 +62,7 @@
             </select>
             <div><label for="species">SPECIES</label></div>
           </div>
+        <!-- email div -->
           <div>
             <input
               type="text"
@@ -95,8 +71,9 @@
               value=""
               required
             />
+             <div> <label for="email">GMAIL ADDRESS</label></div>
           </div>
-        <div> <label for="email">GMAIL ADDRESS</label></div>
+        <!-- password div -->
           <div>
             <input
               type="password"
@@ -105,8 +82,9 @@
               value=""
               required
             />
+            <div><label for="pswd">PASSWORD</label></div>
           </div>
-          <label for="pswd">PASSWORD</label>
+        <!-- confirm password div -->
           <div>
             <input
               type="password"
@@ -115,9 +93,11 @@
               value=""
               required
             />
+              <div><label for="conpswd">CONFIRM PASSWORD</label></div>
           </div>
-          <div><label for="conpswd">CONFIRM PASSWORD</label></div>
-          <div><p>By clicking “submit,” you agree to the terms and conditions as outlined in our “terms and conditions” document.</p></div>
+          <div>
+            <p>By clicking “submit,” you agree to the terms and conditions as outlined in our “terms and conditions” document.</p>
+          </div>
           <div><input type="submit" value="Submit" /></div>
         </ul>
       </form>
@@ -126,11 +106,11 @@
     <footer>
       <nav>
         <ul id="footernav" style="list-style:none;">
-          <li>Terms of Service</li>
-          <li>Privacy Policy</li>
-          <li>Cookie Policy</li>
-          <li>Accessibility</li>
-          <li>Ads info</li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Accessibility</a></li>
+          <li><a href="#">Ads Info</a></li>
           <li>© 2022 Growls N’ Howls, Inc</li>
         </ul>
       </nav>
