@@ -1,32 +1,39 @@
-/* /* * {
-  display: flex;
-  box-sizing: border-box;
-  position: relative;
-  width: 100%;
-} */
-/* * {
-  box-sizing: border-box;
+ul {
+  list-style: none;
 }
-body {
-  background: url('images/bgimg.png');
+
+#signup {
+  background-image: url('images/bgimg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.bgimg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-h1 {
-  height: 61px;
-  font-family: 'Cinzel';
-  font-style: normal;
-  font-weight: 125;
-  font-size: 67px;
-  line-height: 116%;
-  letter-spacing: 0.01em;
-  padding-left: 20%;
-}
-.flex-container {
+
+#login {
   display: flex;
   flex-direction: column;
-  align-items: center;
-} */ */
+  background-image: url('images/bgimg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.textlogo {
+  font-size: 4rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #fbf0eb;
+}
+
+#headernav {
+  display: flex;
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
